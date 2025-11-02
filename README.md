@@ -37,6 +37,21 @@ Tämän jälkeen latasin micro editorin.
 
 <img width="304" height="79" alt="image" src="https://github.com/user-attachments/assets/3e359bfa-654c-48ff-ac2e-8034932055f7" />
 
+Tehtävän tarkoituksena oli paikallisesti kokeilla infraa koodina. Loin siis alkuun kansion "Hello" moduuliin 
+
+<img width="253" height="56" alt="image" src="https://github.com/user-attachments/assets/85957c2b-1441-4a23-bcc4-9f1d12c8180f" />
+
+Olin tällä hetkellä oikeassa kansiossa myös ja avasin sitten microeditorin. Microeditoriin ajoin idempotentin koodin saltin omalla kielellä. Tämän jälkeen ajoin koodin salt-call --localilla ja varmistin, että se oli onnistunut. 
+
+
+<img width="362" height="212" alt="image" src="https://github.com/user-attachments/assets/dbc4d804-a8b6-4fc7-9030-60f3addb48fb" />
+
+
+Kuten huomaamme, niin esimerkkitiedoston luominen onnistui. Varmistetaan vielä, että Salt teki mitä se sanoi tekevänsä. 
+
+<img width="259" height="31" alt="image" src="https://github.com/user-attachments/assets/63c5ec5b-fd94-4144-ada7-8d2320ddcaeb" />
+
+Tehtävä siis onnistui. 
 
 
 
