@@ -63,8 +63,58 @@ Tehtävä siis onnistui.
 b)
 
 
+Tehtävä topping. Aloitin tehtävän siirtymällä salttiin ja varmistin myös aluksi, että hakemisto oli olemassa. 
+
+<img width="163" height="20" alt="image" src="https://github.com/user-attachments/assets/3e42cd9d-1e23-47e7-9ecb-b7e6f2010a3d" />
+
+
+Loin tämän jälkeen tiedoston nanolla ja lisäsin Top files sivulla annetun koodin. tiedoston sisälle. 
+
+
+<img width="271" height="62" alt="image" src="https://github.com/user-attachments/assets/0f3f515f-dc9c-46a3-8a61-939a97a106ca" />
+
+Seuraavaksi lähdin luomaan tiedostoja core.sls ja edit.sls, jotta jokainen tila päästäisiin ajamaan kerralla läpi. * merkki alkuperäisessä top- tiedostossa ajaa kaikki tiedostot hakemistosta /srv/salt/
+
+
+
+<img width="275" height="71" alt="image" src="https://github.com/user-attachments/assets/7ae65b0d-5831-4b83-ba16-b72763d04c9c" />
+
+
+Käytin edit.sls kohdalla pkg.installed nanoa, mutta sillä ei ollut tehtävänannon kannalta väliä, mitä editoria käytin vaan se, että top filen ajaminen toimii. 
+
+
+
+Seuraavaksi kokeilin, että toimiiko se peruskomennolla salt-call --localilla ja vastaukseksi sain: 
+
+
+
+<img width="500" height="322" alt="image" src="https://github.com/user-attachments/assets/f2fffafd-dff9-497d-b37e-3b8c269aaf4c" />
+
+
+
+<img width="452" height="155" alt="image" src="https://github.com/user-attachments/assets/e82c01e4-7835-428a-b5fe-2d0affe8c5ae" />
+
+
+Eli sain ajettua molemmat samalla kertaa. Siinä kesti vain hieman päälle 9s, mutta tehtävä onnistui.
+
+
+
+
+
 
 c)
+
+Seuraavaksi viisikko tiedostossa tehtävä edessä. Eli tässä teen erilliset esimerkit jokaisesta tilafunktiosta. 
+
+
+
+
+
+
+
+
+
+
 
 
 d)
