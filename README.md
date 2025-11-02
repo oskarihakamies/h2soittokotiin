@@ -107,22 +107,55 @@ c)
 Seuraavaksi viisikko tiedostossa tehtävä edessä. Eli tässä teen erilliset esimerkit jokaisesta tilafunktiosta. Eli aloitetaan luomalla jokaiselle hakemisto. 
 
 
-Aloitin pkg:lla ja loin sille nanossa koodin, että se asentaisi 'treen' eli hakemistopuun. 
+Loin alkuun hakemistot jokaiselle viidelle eri polulle komennolla sudo touch /srv/salt/hellopkg/init.sls
 
 
-<img width="266" height="77" alt="image" src="https://github.com/user-attachments/assets/c2463aa4-8f2b-4f25-9adc-b0988a01f857" />
-
-
+Aloitin sitten pkg:lla ja nanossa kirjoitin, että se asentaisi 'treen' eli hakemistopuun. 
 
 
 
 
+<img width="313" height="56" alt="image" src="https://github.com/user-attachments/assets/5c0216f7-1623-494b-b8ac-6d8369257078" />
+
+Tein samalla muille, eli user, cmd, service ja filelle omat /srv/salt/hello""/init.sls.
+
+
+Kun olin muodostanut tiedostot, niin seuraavan tehtävänä oli ajaa ne samanaikaisesti. 
+
+
+<img width="311" height="31" alt="image" src="https://github.com/user-attachments/assets/bf144d87-624e-416d-997a-da14562a2142" />
+
+
+
+top.sls tiedoston sisään samalla tähtimerkillä ja merkaten aiemmat tiedostot.
+
+
+
+<img width="341" height="112" alt="image" src="https://github.com/user-attachments/assets/d4c071c4-87a6-4245-b765-bc8eb7e325c0" />
+
+
+
+Seuraavaksi kokeilin, että onnistuiko se kun ajoin sen läpi paikallisesti. 
+
+
+
+
+<img width="366" height="131" alt="image" src="https://github.com/user-attachments/assets/144dec49-dfee-4a40-9851-5600fd0c8332" />
+
+
+Ja se onnistui. Seuraavana tehtävänä idempotentin sls- tiedoston tekeminen.
 
 
 
 
 
 d)
+
+
+
+
+
+
 
 
 
