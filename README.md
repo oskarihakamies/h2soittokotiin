@@ -104,8 +104,13 @@ Eli sain ajettua molemmat samalla kertaa. Siinä kesti vain hieman päälle 9s, 
 
 c)
 
-Seuraavaksi viisikko tiedostossa tehtävä edessä. Eli tässä teen erilliset esimerkit jokaisesta tilafunktiosta. 
+Seuraavaksi viisikko tiedostossa tehtävä edessä. Eli tässä teen erilliset esimerkit jokaisesta tilafunktiosta. Eli aloitetaan luomalla jokaiselle hakemisto. 
 
+
+Aloitin pkg:lla ja loin sille nanossa koodin, että se asentaisi 'treen' eli hakemistopuun. 
+
+
+<img width="266" height="77" alt="image" src="https://github.com/user-attachments/assets/c2463aa4-8f2b-4f25-9adc-b0988a01f857" />
 
 
 
