@@ -152,10 +152,47 @@ Ja se onnistui. Seuraavana tehtävänä idempotentin sls- tiedoston tekeminen.
 d)
 
 
+Eli tehtävänä olisi luoda sls.tiedosto ja käyttää kahta saltin tilafunktiota. 
+
+
+Käytän tehtävässä pkg lataamaan ohjelman esimerkiksi nginx ja serviceä varmistamaan, että se on toiminnassa.
+
+
+Aloitin luomalla hakemiston ja kirjoittamalla tilatiedot tiedostoon. 
+
+
+
+<img width="297" height="136" alt="image" src="https://github.com/user-attachments/assets/3b739430-93bc-4688-96f9-abbdcee7bb04" />
 
 
 
 
+
+Tämän jälkeen lisäsin top.sls ja muokkasin serverin nimen siihen ajoa varten. 
+
+
+
+<img width="290" height="66" alt="image" src="https://github.com/user-attachments/assets/b8f5b335-3be0-4d08-8a07-b9fdd75622a8" />
+
+
+Ja viimeisenä lähdin ajamaan tiedostoa alas. 
+
+
+
+<img width="608" height="357" alt="image" src="https://github.com/user-attachments/assets/31b235b3-e19c-4a9d-9509-fc378325078c" />
+
+
+nginx ei ilmeisesti ole päällä, joten sain virheilmoituksen. Yritin korjata sitä asentamalla nginxia suoraan, mutta se vieläkin näytti virhettä. 
+
+
+Idempotenssin pystyy silti todistamaan ajamalla komennon sudo salt-call --local state.apply
+
+
+<img width="245" height="111" alt="image" src="https://github.com/user-attachments/assets/22db1513-443e-4310-8ad2-fb0d9830729f" />
+
+
+
+Sillä muutoksia ei tapahdu. 
 
 
 
@@ -167,5 +204,5 @@ Karvinen 2014: Hello Salt Infra-as-Code. https://terokarvinen.com/2024/hello-sal
 
 Salt Contributors: Salt overview – Rules of YAML, YAML simple structure, Lists and dictionaries - YAML block structures. https://docs.saltproject.io/salt/user-guide/en/latest/topics/overview.html#rules-of-yaml
 
-
+Salt contributors: The top file - Introduction and A Basic example, https://docs.saltproject.io/en/latest/ref/states/top.html
 
